@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+    margin-top: 40px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+    border: 10px solid #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px auto;
+    display: inline-block;
+}
+
+li {
+    display: block;
+    margin: 20px 0;
+}
+
+ol {
+    list-style: decimal;
+    padding: 0 40px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+li {
+    margin: 20px 0;
+}
+
+.recipe-list li a, .nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-list {
+    text-align: left;
+}
+
+.nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.nav:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+#heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
