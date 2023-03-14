@@ -4,10 +4,15 @@ body {
     background-color: #f3cd9b;
   }
   
-  h1, h2, h3, h4 {
+  h1, h3, h4 {
     color: #333333;
     margin-top: 60px;
     font-weight: bold;
+  }
+
+
+  h1 {
+    font-size: 50px;
   }
   
   img {
