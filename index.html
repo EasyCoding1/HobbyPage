@@ -8,11 +8,26 @@
 
   <body>
     <h1 id="heading">Tom's Recipes!</h1>
-    <img src="Images/Hells_kithen.jpg" alt="Hells Kitchen Image">
+    <p id="date"></p>
+    <h3> Hello and welcome to my cooking hobby page!</h3>
+    <img src="Images/Hells_kithen.jpg" alt="A picture of Gordon Ramsay telling me I can't cook" title="A picture of Gordon Ramsay telling me I can't cook">
+    <p id="intro">This is the first website I have ever made and so it is pretty simple, but I was so proud when I finished it <em>and thats what it's all about</em>. Cooking is very similar. Before you begin you have to spend some time preparing and planning what you are going to do. Then, you can begin putting it into practice. Many times when cooking you will not quite achieve the flavours or textures that you were hoping for, or perhaps you will feel that the dish you have ended up with is pretty simple and plain. At the end of the day though, cooking just like coding is often just as much about the journey and being able to look back at what you have achieved for the effort itself and not always worrying about how perfect the result seems to be. You never know, it could be the start of something brilliant.</p>
+    <p id="intro2"> Thanks for checking out my page and I hope you can find something here you like.</p>
     <ul class="recipe-list">
       <li><a href="Recipes/Chicken_Pesto_Pasta.html"><button class="nav"> Chicken Pesto Pasta!</button></a></li>
       <li><a href="Recipes/Red_Pepper_Couscous.html"><button class="nav"> Red Pepper Couscous!</button></a></li>
-    </ul>  
+    </ul> 
+    
+    
+    <script>
+      const dateT = document.getElementById('date');
+      let date = new Date();
+      let day = date.getDate();
+      let month = date.getMonth();
+      let year = date.getFullYear();
+      let currentDate = `${day}-${month}-${year}`;
+      dateT.textContent = currentDate;
+    </script>
   </body>
 </html>
 
