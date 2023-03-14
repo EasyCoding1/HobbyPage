@@ -63,7 +63,17 @@ body {
     display: inline-block;
     transition: all 0.3s ease-in-out;
   }
-  
+
+  .navE {
+    background-color: #a28f8a;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+  }
+
   .nav:hover {
     background-color: #FFFFFF;
     color: #EE6C4D;
@@ -71,6 +81,15 @@ body {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
   }
   
+
+  .navE:hover {
+    background-color: #FFFFFF;
+    color: #EE6C4D;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+
   #heading {
     text-align: center;
     margin-bottom: 60px;
